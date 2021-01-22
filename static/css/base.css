@@ -7,4 +7,12 @@ body {
     height: calc(100vh - 200px);
     background: url('/media/land-back.jpg') no-repeat center center fixed;
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+}
+
+.logo-txt{
+    font-family: 'Lobster', sans-serif;
+    color: black;
 }
