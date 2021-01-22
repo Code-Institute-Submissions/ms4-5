@@ -1,0 +1,10 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 100vw;
+    height: calc(100vh - 200px);
+    background: url('/media/land-back.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
