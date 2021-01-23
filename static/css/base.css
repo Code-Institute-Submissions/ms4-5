@@ -4,7 +4,7 @@ html {
 
 body {
     width: 100vw;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 147px);
     background: url('/media/land-back.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
@@ -15,4 +15,15 @@ body {
 .logo-txt{
     font-family: 'Lobster', sans-serif;
     color: black;
+}
+
+.top-nav{
+    height: 75px !important;
+}
+
+@media (min-width: 992px){
+
+    .header-container{
+        padding-top: 147px;
+    }
 }
