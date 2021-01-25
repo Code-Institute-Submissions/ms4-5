@@ -1,3 +1,10 @@
+# ArtWitch - handmade with love!
+    This web app represents a 4th milestone project for Code Institute's Fullstack Web Developer course.
+    This app will also be used as real world e-commerce web site later on by my friend who decide to venture into business of selling handmade product online.
+    My idea was to bulid basic e-commerce site with all of the needed functionality which can later be customized with different design layouts and functionality.
+
+
+
 # USER STORIES
 
 ## Searching and buying
@@ -40,3 +47,7 @@
     - As a shopper I want to see history of my orders and transactions.
 
     - As a shopper I want to be able to add/remove/edit my delivery address.
+
+
+##
+Some of the photos of products are taken from Etsy.com just as placeholders until shop owner creates and photographs their own producs
