@@ -8,15 +8,40 @@
             </div>
         </div>
     </div>
+    <hr class="w-100 mx-auto">
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-6 my-auto mx-auto">
-                {{ products }}
+    <div class="main-overlay"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center my-4">
+                    <h2 class="logo-txt">Products</h2>
+                </div>
+            </div>
+            <div class="row">
+                {% for product in products %}
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100">
+                        <img src="/media/{{ product.image}}" class="card-img-top img-fluid" alt="{{ product.name }}">
+                        <div class="card-body">
+                          <h5 class="card-title">{{ product.name }}</h5>
+                        </div>
+                        <div class="card-footer bg-white pt-0 border-0 text-left">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="lead mb-0 text-left">€{{ product.price }}</p>
+                                    {% if product.rating %}
+                                        <small class="text-muted"><i class="bi bi-star-fill"></i>{{ product.rating }} / 5</small>
+                                    {% else %}
+                                        <small class="text-muted">No Rating</small>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
-    </div>
-    <h1 class ="display-4 text-success">It works!</h1>
 {% endblock %}
