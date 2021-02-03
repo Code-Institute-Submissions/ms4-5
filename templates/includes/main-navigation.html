@@ -19,22 +19,20 @@
         </a>
 
         <div class="dropdown-menu border-0 text-dark" aria-labelledby="accessories-link">
-          <a href="" class="dropdown-item">1</a>
-          <a href="" class="dropdown-item">2</a>
-          <a href="" class="dropdown-item">3</a>
-          <a href="" class="dropdown-item">4</a>
+          <a href="{% url 'products'%}?category=bags" class="dropdown-item">Bags</a>
+          <a href="{% url 'products'%}?category=earrings" class="dropdown-item">Earrings</a>
+          <a href="{% url 'products'%}?category=knitted" class="dropdown-item">Knitted</a>
+          <a href="{% url 'products'%}?category=bracelets" class="dropdown-item">Bracelets/a>
         </div>
       </li>
       <li class="nav-item dropdown list-group-item border-0">
-        <a class="nav-link text-dark" href="#" id="toys-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link text-dark" href="#" id="kids-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Toys
         </a>
 
-        <div class="dropdown-menu border-0 text-dark" aria-labelledby="toys-link">
-          <a href="" class="dropdown-item">1</a>
-          <a href="" class="dropdown-item">2</a>
-          <a href="" class="dropdown-item">3</a>
-          <a href="" class="dropdown-item">4</a>
+        <div class="dropdown-menu border-0 text-dark" aria-labelledby="kids-link">
+          <a href="{% url 'products'%}?category=kid_clothes" class="dropdown-item">Clothes</a>
+          <a href="{% url 'products'%}?category=kid_toys" class="dropdown-item">Toys</a>
         </div>
       </li>
       <li class="nav-item dropdown list-group-item border-0">
@@ -43,10 +41,8 @@
         </a>
 
         <div class="dropdown-menu border-0 text-dark" aria-labelledby="clothing-link">
-          <a href="" class="dropdown-item">1</a>
-          <a href="" class="dropdown-item">2</a>
-          <a href="" class="dropdown-item">3</a>
-          <a href="" class="dropdown-item">4</a>
+          <a href="{% url 'products'%}?category=clothing_women" class="dropdown-item">Womens</a>
+          <a href="{% url 'products'%}?category=clothing_mens" class="dropdown-item">Mens</a>
         </div>
       </li>
       <li class="nav-item dropdown list-group-item border-0">
@@ -55,10 +51,9 @@
         </a>
 
         <div class="dropdown-menu border-0 text-dark" aria-labelledby="deals-link">
-          <a href="" class="dropdown-item">1</a>
-          <a href="" class="dropdown-item">2</a>
-          <a href="" class="dropdown-item">3</a>
-          <a href="" class="dropdown-item">4</a>
+          <a href="{% url 'products'%}?category=clothing_women" class="dropdown-item">Women</a>
+          <a href="{% url 'products'%}?category=clothing_mens" class="dropdown-item">Men</a>
+          <a href="{% url 'products'%}?category=kid_clothes,kid_toys" class="dropdown-item">Kids</a>
         </div>
       </li>
     </ul>
