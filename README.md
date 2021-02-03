@@ -49,5 +49,34 @@
     - As a shopper I want to be able to add/remove/edit my delivery address.
 
 
-##
-Some of the photos of products are taken from Etsy.com just as placeholders until shop owner creates and photographs their own producs
+## Technologies Used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML) - This was used for the overall structure of the website.
+
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - This was used for the overall styling of elements on the website.
+
+- [Bootstrap](https://getbootstrap.com/docs/)- Used for styling and layout of the site.
+
+- [Python](https://www.python.org/) - This was used for all the backend coding of the website.
+
+- [Django](https://www.djangoproject.com/) - Web framework used as main architecture for the site following MVT priciples.
+
+- [Google Fonts](https://fonts.google.com/) - Used for fonts across site.
+
+- [GitHub](https://github.com/) - It was used for version controll.
+
+- [Heroku](https://www.heroku.com/) - I used Heroku to deploy the live version of my site.
+
+- [Figma](https://www.figma.com/)** - used for mockup.
+
+- [Visual Studio Code](https://code.visualstudio.com/) - used this to write the code for my site.
+
+
+
+
+## Media
+
+- Some of the photos of products are taken from Etsy.com just as placeholders until shop owner creates and photographs enough of their own producs.
+
+- Home page background photo was take from [pexels.com](https://www.pexels.com).
+
