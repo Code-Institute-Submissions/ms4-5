@@ -39,6 +39,13 @@
                             <div class="row">
                                 <div class="col">
                                     <p class="lead mb-0 text-left">€{{ product.price }}</p>
+                                    {% if product.category %}
+                                    <p class="small mt-1 mb-0">
+                                        <a href="{% url 'products' %}?category={{ product.category.name }}" class="text-reset">
+                                            <i class="bi bi-tag-fill"></i>{{ product.category.friendly_name }}
+                                        </a>
+                                    </p>
+                                    {% endif %}
                                     {% if product.rating %}
                                         <small class="text-muted"><i class="bi bi-star-fill"></i>{{ product.rating }} / 5</small>
                                     {% else %}
