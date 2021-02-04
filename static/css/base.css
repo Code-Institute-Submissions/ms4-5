@@ -31,6 +31,13 @@ body {
     z-index: -1;
 }
 
+.message-container {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    z-index: 6666677777;
+}
+
 @media (min-width: 1200px) {
     .container {
       max-width: 80%;
