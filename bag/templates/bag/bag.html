@@ -94,21 +94,3 @@
         </div>
     </div>            
 {% endblock %}
-{% block postloadjs %}
-
-<script type="text/javascript">
-    //Remove item and reload page
-    $('.remove-item').click(function(e){
-        var csrfToken = "{{ csrf_token }}";
-        var itemId = $(this).attr('id').split('remove_')[1];
-        var url = '/bag/remove/${itemId}/';
-        var data = {'csrfmiddlewaretoken':csrfToken, 'itemId': itemId}
-
-        $.post(url, data)
-            .done(function(){
-                location.reload();
-            });
-    })
-</script>
-
-{% endblock %}
