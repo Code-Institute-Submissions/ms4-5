@@ -21,12 +21,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'dq5j2548=b63(6#s%zorjk%*wnxj@yg$vnf9)h($f-v8kd2_3a'
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['artwitch-handmade.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['artwitch-handmade.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -118,6 +118,7 @@ else:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
+
 
 
 # Password validation
