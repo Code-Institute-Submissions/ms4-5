@@ -1,7 +1,14 @@
+
 # ArtWitch - handmade with love!
+
     This web app represents a 4th milestone project for Code Institute's Fullstack Web Developer course.
     This app will also be used as real world e-commerce web site later on by my friend who decide to venture into business of selling handmade product online.
     My idea was to bulid basic e-commerce site with all of the needed functionality which can later be customized with different design layouts and functionality.
+
+(Important : Project is not finished, I decided to submit at the advice of student care. 
+I am aware that project will fail at this state but I am hoping to get a chance of resubmission and hopefully gettinga a pass. I apologize for any inconvenience)
+
+
 
 
 
@@ -79,4 +86,8 @@
 - Some of the photos of products are taken from Etsy.com just as placeholders until shop owner creates and photographs enough of their own producs.
 
 - Home page background photo was take from [pexels.com](https://www.pexels.com).
+
+## Credits
+
+- Chris for exelent lesson in CI course. His code is backbone of project.
 
